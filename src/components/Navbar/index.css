@@ -1,0 +1,37 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item-card {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+.item-nav {
+  cursor: pointer;
+  padding: 5px 18px;
+}
+.item-nav1 {
+  border-radius: 25px;
+  background: rgba(131, 205, 32, 1);
+}
+
+.nav-chat {
+  display: flex;
+  gap: 20px;
+}
+.nav-chat-phone {
+  color: gray;
+  font-size: 15px;
+}
+.nav-chat_phone {
+  font-size: 18px;
+}
